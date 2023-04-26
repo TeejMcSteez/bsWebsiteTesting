@@ -1,36 +1,61 @@
 <!DOCTYPE html>
     <head>
-        <meta charset="utf-8" />
+
+        <meta charset="utf-8" >
         <title>Teejs Testing Enviroment</title>  
         
     </head>
-    <body>
+    <body background="gradient.jpg">
         <style type="text/css">
             img{
-                align-self: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 75%;
             }
             body {
-                background: linear-gradient(to right, skyblue, aqua, blue, red);
+                overflow: hidden;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-size: 200%;
             }
             h1 {
                 font-size: 50px;
                 padding:10px;
                 border-radius: 10px;
-                background: linear-gradient(to right, red, pink, purple, magenta);
+                background: linear-gradient(to right, gray, red, #1204, #831);
                 text-align: center;
             }
             p {
-                font-size: 12px;
+                font-size: 35px;
                 font-family: 'Times New Roman', Times, serif;
-                text-align: justify;
+                text-align: center;
             }
+            p2 {
+                min-height: 100;
+                display: flex;
+                flex-direction: column;
+                font-size: 12px;
+                text-align: center;
+            }
+            a {
+                display: flex;
+                min-height: 100;
+                flex-direction: column;
+                text-align: center;
+                font-size: 20px;
+            }
+                 
         </style>
+        
+        <h1>Welcome to Teej's Website</h1>
+        <p>I hope this sloth will make you happy and make your day/night more pleasant...</p>
 
-        <img src = "sloth.jpg" height="700" width="1300" alt="this is a smiling sloth for someone">
+        <img src = "sloth.jpg" height="500" width="800" alt="this is a smiling sloth for someone">
 
-
-        <h1 rel="bullshit" class="h1">This is a smiling sloth for someone</h1>
-        <p>this is also not the best website btw...</p>
+        <p2>Made Using NameCheap Domain Service and a Public Github Repository</p2>
+        <br></br>
+        <a href="https://github.com/TeejMcSteez/bsWebsiteTesting">Github Link</a>
 
     </body>
 </html>
